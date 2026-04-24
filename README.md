@@ -44,8 +44,12 @@ SELECT * FROM reviews WHERE rating < 1 OR rating > 5;
 
 -- 4. FINANCIAL VALIDATION
 -- Flagging discrepancies > ₦10
+
+
 ## Financial Integrity Check
 I verified that the total_amount recorded in the orders table matches the actual sum of individual line items in the order_items table. Differences greater than ₦10 were flagged as discrepancies.
+
+
 SELECT 
     o.order_id, 
     o.total_amount AS reported_total, 
