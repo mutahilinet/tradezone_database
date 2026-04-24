@@ -64,6 +64,7 @@ Analysis: Filter for 2024 sign-ups and calculate the percentage of users
 who converted to a paid order within 30 days of registration.
 */
 
+
 SELECT 
     state,
     COUNT(customer_id) AS total_new_customers,
