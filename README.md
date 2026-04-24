@@ -79,6 +79,8 @@ FROM (
 GROUP BY state
 ORDER BY total_new_customers DESC LIMIT 5;
 <img width="1899" height="989" alt="image" src="https://github.com/user-attachments/assets/b962df99-d5f7-41a8-bd16-c2e02ebcc6dc" />
+
 ## Seller Fulfillment Efficiency
 I calculated the average time (in hours) between order placement and delivery for sellers who have completed at least 1 order.
+
 Note: The analysis revealed that no sellers currently meet a 20-order threshold, suggesting an opportunity to help merchants scale their volume.
