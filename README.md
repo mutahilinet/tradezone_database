@@ -118,5 +118,6 @@ ORDER BY avg_delivery_hours ASC LIMIT 20;
 ```
 
 **Results:**
-![Seller Efficiency](image_a55c32.png)
+<img width="1917" height="969" alt="image" src="https://github.com/user-attachments/assets/33b1994e-22d1-4cda-8ebb-7cbd436019aa" />
+
 
