@@ -50,7 +50,8 @@ HAVING discrepancy > 10;
 ```
 
 **Results:**
-![Financial Validation](image_a5dfd2.png)
+<img width="1917" height="989" alt="image" src="https://github.com/user-attachments/assets/b749b9b1-2a97-4cd9-b57c-c31a9f75ae75" />
+
 
 ---
 
