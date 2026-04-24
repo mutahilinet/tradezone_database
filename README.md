@@ -75,6 +75,8 @@ FROM (
 GROUP BY state
 ORDER BY total_new_customers DESC LIMIT 5;
 ```
+<img width="1912" height="936" alt="image" src="https://github.com/user-attachments/assets/88921123-42d3-4346-8f04-fd03606c15c8" />
+
 
 ### 2. Product Performance
 I identified the top 10 products by revenue in 2024. This ranking helps the platform understand which high-value categories, specifically Electronics and Sports equipment, are the primary revenue drivers.
