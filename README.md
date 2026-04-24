@@ -120,4 +120,21 @@ ORDER BY avg_delivery_hours ASC LIMIT 20;
 **Results:**
 <img width="1917" height="969" alt="image" src="https://github.com/user-attachments/assets/33b1994e-22d1-4cda-8ebb-7cbd436019aa" />
 
+### 4. Quarterly Revenue Trends (2023 vs. 2024)
+I evaluated the platform's performance on a quarterly basis to identify seasonal growth patterns and changes in Average Order Value (AOV). This analysis helps the Head of Growth understand which periods drive the highest volume and where marketing efforts should be focused in 2025.
+
+```sql
+/* Goal: Identify which quarter had the strongest growth and highest AOV */
+SELECT 
+    YEAR(order_date) AS order_year,
+    QUARTER(order_date) AS order_quarter,
+    SUM(total_amount) AS total_revenue,
+    ROUND(AVG(total_amount), 2) AS avg_order_value,
+    COUNT(order_id) AS total_orders
+FROM orders
+WHERE YEAR(order_date) IN (2023, 2024)
+GROUP BY order_year, order_quarter
+ORDER BY order_year, order_quarter;
+
+
 
