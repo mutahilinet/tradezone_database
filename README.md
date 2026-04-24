@@ -1,6 +1,4 @@
-To get that perfect look—where the explanation is **normal white text** and the code is in a **clean black box** with the image right below it—you should use the structure below.
 
-I have formatted the entire project from start to finish. Copy and paste this directly into your `README.md` file on GitHub.
 
 ---
 
