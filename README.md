@@ -134,8 +134,7 @@ SELECT
 FROM orders
 WHERE YEAR(order_date) IN (2023, 2024)
 GROUP BY order_year, order_quarter
-ORDER BY order_year, order;
-<img width="1919" height="927" alt="image" src="https://github.com/user-attachments/assets/1a52809f-675d-48c0-b808-75275c6b3a1c" />
+ORDER BY order_year,  order_quarter;
 
 
 
