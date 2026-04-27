@@ -136,7 +136,11 @@ WHERE YEAR(order_date) IN (2023, 2024)
 GROUP BY order_year, order_quarter
 ORDER BY order_year,  order_quarter;
 
-https://github.com/mutahilinet/tradezone_database/blob/main/image.png
+
+
+
+
+
 
 
 
