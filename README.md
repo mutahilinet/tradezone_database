@@ -137,7 +137,7 @@ GROUP BY order_year, order_quarter
 ORDER BY order_year,  order_quarter;
 
 
-image.png
+
 
 
 
